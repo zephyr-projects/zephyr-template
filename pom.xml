@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.zephyr-projects</groupId>
+        <artifactId>zephyr-build</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>zephyr-template</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <name>Zephyr Projects :: Template</name>
+    <description>Practice in learning.</description>
+
+    <developers>
+        <developer>
+            <id>authoralankay</id>
+            <name>authoralankay</name>
+            <email>authoralankay@gmail.com</email>
+            <organization>Zephyr</organization>
+            <roles>
+                <role>lead</role>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+</project>
