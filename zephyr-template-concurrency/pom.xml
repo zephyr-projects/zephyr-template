@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.zephyr-projects</groupId>
-        <artifactId>zephyr-build</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <artifactId>zephyr-template</artifactId>
+        <version>${revision}</version>
     </parent>
 
-    <artifactId>zephyr-template</artifactId>
+    <artifactId>zephyr-template-concurrency</artifactId>
     <version>${revision}</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
-    <name>Zephyr Projects :: Template</name>
-    <description>Practice in learning.</description>
+    <name>Zephyr Projects :: Template of Concurrency</name>
+    <description>Practice in learning The Art of Java Concurrency Programming.</description>
 
     <developers>
         <developer>
@@ -29,8 +29,5 @@
             </roles>
         </developer>
     </developers>
-    <modules>
-        <module>zephyr-template-concurrency</module>
-    </modules>
 
 </project>
